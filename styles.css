@@ -17,3 +17,5 @@ small,.compact-note,.question-note,.example small,.mode-card small,.form-row spa
 .exercise .question{font-size:1.4rem}.feedback{scroll-margin-bottom:140px}.lesson-row strong{font-size:1rem}
 @media(max-width:700px){.daily-orbit{display:none}.daily-card h2{font-size:1.7rem}.daily-card p,.daily-card .primary{font-size:1rem}.section-heading{flex-wrap:wrap}.grade-buttons button{font-size:.94rem}.grade-buttons small{font-size:.8rem}.day small{font-size:.78rem}.en,.example .en,.feedback .en{font-size:1.11rem}.exercise .question{font-size:1.33rem}.lesson-row .pill{font-size:.78rem}.page-heading{align-items:start}.form-row{grid-template-columns:minmax(0,1fr);gap:6px}}
 @media(max-width:500px){.contrast-grid{grid-template-columns:1fr}.stat{padding:14px 10px}.stats{gap:8px}.practice-options{grid-template-columns:1fr}.tense-grid{grid-template-columns:1fr}.settings-section .row{gap:14px}.brand small{font-size:.6rem}.lesson-row{padding:16px 13px}}
+
+.feedback button small{display:block;font-size:.8rem;line-height:1.4;margin-top:5px;font-weight:400}.feedback .primary small{color:#4b4b4d}
