@@ -27,7 +27,7 @@ const base='http://127.0.0.1:8768/tense-english/';
  await page.waitForTimeout(800);
  report.flows.push('Ryan audio starts after a tap');
  await page.locator('[data-action=start][data-mode=daily]').click();
- await page.waitForURL('**#session');
+ await page.waitForURL('**#session');await page.waitForSelector('#exercise-controls');
  let steps=0,firstFailure=true;
  while(await page.locator('#exercise-controls').count()){
    const data=await page.evaluate(async()=>{
@@ -70,7 +70,7 @@ const base='http://127.0.0.1:8768/tense-english/';
  await page.locator('.example .audio-btn').first().click();await page.waitForTimeout(500);if(!(await page.locator('.audio-btn.playing').count()))throw Error('Offline audio did not start');
  report.flows.push('Full offline reload, lesson content, audio playback and 206 byte-range serving');
  await context.setOffline(false);
- await page.goto(base+'#practice');await page.locator('[data-action=start][data-mode=listen]').click();await page.waitForURL('**#session');await page.locator('[data-action=audio]').click();await page.waitForTimeout(200);
+ await page.goto(base+'#practice');await page.locator('[data-action=start][data-mode=listen]').click();await page.waitForURL('**#session');await page.waitForSelector('#exercise-controls');await page.locator('[data-action=audio]').click();await page.waitForTimeout(200);
  const answer=await page.evaluate(async()=>{const {CONTENT:C}=await import('./content.js');const s=JSON.parse(localStorage.getItem('tense-progress-v1')).session;const c=C.cards.find(c=>c.id===s.queue[s.index]);return C.lessons.find(l=>l.id===c.lesson).name;});
  await clickChoice(answer);await page.waitForSelector('.feedback:not(.bad)');report.flows.push('Listening question, Ryan playback and tense feedback');
  await page.screenshot({path:'outputs/Tense-practice.png',fullPage:true});
