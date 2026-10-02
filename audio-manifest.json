@@ -1,0 +1,862 @@
+{
+  "voice": "en-GB-RyanNeural",
+  "rate": "-5%",
+  "files": {
+    "Are you using this computer?": {
+      "src": "audio/34aa5bc869e4c654.mp3",
+      "seconds": 2.448
+    },
+    "After the meeting, I went home.": {
+      "src": "audio/427669f214301296.mp3",
+      "seconds": 3.024
+    },
+    "At eight last night, I was watching a lecture.": {
+      "src": "audio/11ea13e237260328.mp3",
+      "seconds": 3.624
+    },
+    "At nine tomorrow, he will not be working.": {
+      "src": "audio/e8556f9f32cf56f3.mp3",
+      "seconds": 3.624
+    },
+    "At ten tomorrow, we will be attending a lecture.": {
+      "src": "audio/bc7d767319f3e91f.mp3",
+      "seconds": 3.792
+    },
+    "At six, I will be writing the report.": {
+      "src": "audio/4501b51d30f84026.mp3",
+      "seconds": 3.552
+    },
+    "By Friday, I will have finished the report.": {
+      "src": "audio/a36793bb0c8bf010.mp3",
+      "seconds": 3.552
+    },
+    "At this time tomorrow, I will be flying to London.": {
+      "src": "audio/afe3f9a23abe3e48.mp3",
+      "seconds": 3.936
+    },
+    "By December, she will have been learning English for five years.": {
+      "src": "audio/2e5f3e0ef30baa19.mp3",
+      "seconds": 4.344
+    },
+    "By June, she will have been here for a year.": {
+      "src": "audio/8c2c341af649d80b.mp3",
+      "seconds": 3.528
+    },
+    "By Friday, I will have written it.": {
+      "src": "audio/89f3ba2153f2e380.mp3",
+      "seconds": 3.096
+    },
+    "By June, I will have been working here for a year.": {
+      "src": "audio/7ffce85732b89ff6.mp3",
+      "seconds": 3.792
+    },
+    "By May, we will have been collecting data for a year.": {
+      "src": "audio/450ff01025a48ec2.mp3",
+      "seconds": 4.032
+    },
+    "By Sunday, we will have been travelling for a week.": {
+      "src": "audio/6e9737f21b8bbf14.mp3",
+      "seconds": 3.648
+    },
+    "By midnight, it will have been raining for twenty-four hours.": {
+      "src": "audio/8073ea4a1b3a18c4.mp3",
+      "seconds": 4.224
+    },
+    "By nine, I will have been studying for three hours.": {
+      "src": "audio/51a28f477e6b264e.mp3",
+      "seconds": 3.936
+    },
+    "By next year, they will have been teaching for ten years.": {
+      "src": "audio/36e730b428b61acf.mp3",
+      "seconds": 4.176
+    },
+    "By noon, he will have been driving for four hours.": {
+      "src": "audio/e7a36c6263aaf9d8.mp3",
+      "seconds": 3.912
+    },
+    "By six yesterday, we had checked all the records.": {
+      "src": "audio/a5dbe7e2327aff56.mp3",
+      "seconds": 4.056
+    },
+    "By six, I will have been writing this report for five hours.": {
+      "src": "audio/b0c708172e4044e5.mp3",
+      "seconds": 4.512
+    },
+    "By six, I will have written the report.": {
+      "src": "audio/8d6ce87cba751748.mp3",
+      "seconds": 3.312
+    },
+    "By the time you arrive, we will have been waiting for two hours.": {
+      "src": "audio/f798ce1f3cbf297a.mp3",
+      "seconds": 4.368
+    },
+    "By the time I arrived yesterday, they had left.": {
+      "src": "audio/ce8001d5abe6d495.mp3",
+      "seconds": 3.72
+    },
+    "By the time I arrived, she had left.": {
+      "src": "audio/853ecbb70060a0a5.mp3",
+      "seconds": 3.312
+    },
+    "Did she attend the conference last year?": {
+      "src": "audio/50acc77292d9a52a.mp3",
+      "seconds": 3.072
+    },
+    "By this evening, she will have written the letter.": {
+      "src": "audio/0f436b30c448eb7d.mp3",
+      "seconds": 3.432
+    },
+    "By the time you arrive, we will have checked the data.": {
+      "src": "audio/da8053c60893cf24.mp3",
+      "seconds": 3.744
+    },
+    "Did you see it?": {
+      "src": "audio/8126d6d01af1dd19.mp3",
+      "seconds": 1.872
+    },
+    "Did you send the email?": {
+      "src": "audio/92e280d267a37d28.mp3",
+      "seconds": 2.328
+    },
+    "Did you see the report?": {
+      "src": "audio/8b67f5b616e84597.mp3",
+      "seconds": 2.4
+    },
+    "Do not call at six. I will be driving.": {
+      "src": "audio/2a7e9a7e9cd9e38c.mp3",
+      "seconds": 4.44
+    },
+    "Have you ever attended an international conference?": {
+      "src": "audio/620c1f77ba2be081.mp3",
+      "seconds": 3.48
+    },
+    "Does he work here?": {
+      "src": "audio/0c94862b58babad9.mp3",
+      "seconds": 2.088
+    },
+    "Have you finished yet?": {
+      "src": "audio/a799d471ff9c87bc.mp3",
+      "seconds": 2.112
+    },
+    "He had been driving for three hours when he stopped.": {
+      "src": "audio/72c74a93bcf4b2f4.mp3",
+      "seconds": 3.648
+    },
+    "He has checked the results.": {
+      "src": "audio/673413780c851113.mp3",
+      "seconds": 2.472
+    },
+    "He is listening to a podcast now.": {
+      "src": "audio/28090f79a0bd0d75.mp3",
+      "seconds": 2.976
+    },
+    "He is not on duty today.": {
+      "src": "audio/88a43e66b9e968e5.mp3",
+      "seconds": 2.76
+    },
+    "He is tired because he has been working all night.": {
+      "src": "audio/7146826c930f3fb3.mp3",
+      "seconds": 3.624
+    },
+    "He said that he had already sent the email.": {
+      "src": "audio/36384997e5b559ab.mp3",
+      "seconds": 3.336
+    },
+    "He was not looking at the screen when I spoke.": {
+      "src": "audio/da2d7473bd3dc87a.mp3",
+      "seconds": 3.36
+    },
+    "He will have written three chapters by Sunday.": {
+      "src": "audio/12e7d49aff35840e.mp3",
+      "seconds": 3.528
+    },
+    "He works on a busy ward.": {
+      "src": "audio/84286a10a1e76448.mp3",
+      "seconds": 2.664
+    },
+    "How long have you been working here?": {
+      "src": "audio/669ba1ae00f4e3cc.mp3",
+      "seconds": 2.88
+    },
+    "How often do you read in English?": {
+      "src": "audio/f46636f20943c493.mp3",
+      "seconds": 2.832
+    },
+    "I am going to study tonight; I have already made a plan.": {
+      "src": "audio/1f60ea2547d2413d.mp3",
+      "seconds": 4.248
+    },
+    "I am not sure. I will check the schedule now.": {
+      "src": "audio/69bfd3ec5e99475f.mp3",
+      "seconds": 4.488
+    },
+    "I am not working today.": {
+      "src": "audio/cfe78941b096c594.mp3",
+      "seconds": 2.544
+    },
+    "I am reading a research paper.": {
+      "src": "audio/4cc432cd1c26a249.mp3",
+      "seconds": 2.832
+    },
+    "I am reading a new study.": {
+      "src": "audio/310c619c08358d86.mp3",
+      "seconds": 2.544
+    },
+    "I am reading now.": {
+      "src": "audio/e65727019fde90e8.mp3",
+      "seconds": 2.112
+    },
+    "I do not know when he will arrive.": {
+      "src": "audio/35bc4f1bccc93b78.mp3",
+      "seconds": 2.832
+    },
+    "I am working on a new presentation this week.": {
+      "src": "audio/93fe48a2baf69d18.mp3",
+      "seconds": 3.48
+    },
+    "I finished the article last night.": {
+      "src": "audio/b57b045f4c9684a5.mp3",
+      "seconds": 2.904
+    },
+    "I had been preparing for months before the exam.": {
+      "src": "audio/01ee8ba3830b31d6.mp3",
+      "seconds": 3.672
+    },
+    "I had been reading for an hour when the lights went out.": {
+      "src": "audio/28d7f8ccedf62ae9.mp3",
+      "seconds": 3.696
+    },
+    "I had been working for hours.": {
+      "src": "audio/94f030b17a868538.mp3",
+      "seconds": 2.616
+    },
+    "I had been working for two hours when she called.": {
+      "src": "audio/1d9542b705af5a79.mp3",
+      "seconds": 3.648
+    },
+    "I had read the article before the discussion.": {
+      "src": "audio/1a0f8f083340f986.mp3",
+      "seconds": 3.432
+    },
+    "I had never seen that diagram before the lecture.": {
+      "src": "audio/7f245bddfe8be944.mp3",
+      "seconds": 3.648
+    },
+    "I have already read it.": {
+      "src": "audio/e4cee961fc5e4491.mp3",
+      "seconds": 2.304
+    },
+    "I have been learning English for two years.": {
+      "src": "audio/74b55fe00ad78fb2.mp3",
+      "seconds": 3.24
+    },
+    "I have been learning about artificial intelligence.": {
+      "src": "audio/ee2090cecab6e192.mp3",
+      "seconds": 3.624
+    },
+    "I have been reading for an hour.": {
+      "src": "audio/24ac18e7ba342572.mp3",
+      "seconds": 2.568
+    },
+    "I have been reading for two hours.": {
+      "src": "audio/74a679c99bbc593e.mp3",
+      "seconds": 2.856
+    },
+    "I have been reading for two hours, and I am still reading.": {
+      "src": "audio/200dd931b82da2dd.mp3",
+      "seconds": 4.224
+    },
+    "I have been writing this report since nine, and it is not finished.": {
+      "src": "audio/30a1ff5616214810.mp3",
+      "seconds": 4.512
+    },
+    "I have known her for ten years.": {
+      "src": "audio/a787f20dec0ec096.mp3",
+      "seconds": 2.904
+    },
+    "I have known her since 2020.": {
+      "src": "audio/4e2e97466ff4cebc.mp3",
+      "seconds": 3.024
+    },
+    "I have never seen this film.": {
+      "src": "audio/722fd7f039e5af20.mp3",
+      "seconds": 2.568
+    },
+    "I have read the paper, so we can discuss it now.": {
+      "src": "audio/5f99b41ed5ee9ddf.mp3",
+      "seconds": 3.696
+    },
+    "I have read the paper.": {
+      "src": "audio/9d4abc43de73fbbf.mp3",
+      "seconds": 2.184
+    },
+    "I have read three papers so far today.": {
+      "src": "audio/ec6e6c2fec54799b.mp3",
+      "seconds": 3.384
+    },
+    "I have read three papers.": {
+      "src": "audio/d0d4800733e40356.mp3",
+      "seconds": 2.616
+    },
+    "I have worked here for five years, and I still work here.": {
+      "src": "audio/127c57443f0694fe.mp3",
+      "seconds": 4.44
+    },
+    "I have worked here for five years.": {
+      "src": "audio/59146e4ac9f4b27e.mp3",
+      "seconds": 3.072
+    },
+    "I have worked here since 2020.": {
+      "src": "audio/e9f521d451a2aab9.mp3",
+      "seconds": 3.096
+    },
+    "I keep my notes up to date.": {
+      "src": "audio/900931f72a715657.mp3",
+      "seconds": 2.688
+    },
+    "I know the answer.": {
+      "src": "audio/9bae03a5d7e34a8d.mp3",
+      "seconds": 2.064
+    },
+    "I promise I will call you tomorrow.": {
+      "src": "audio/7f69104633389459.mp3",
+      "seconds": 2.88
+    },
+    "I promise I will send the report tonight.": {
+      "src": "audio/2abdaa2a7b3d9cf8.mp3",
+      "seconds": 3.312
+    },
+    "I read it yesterday.": {
+      "src": "audio/02d2438eea29faef.mp3",
+      "seconds": 2.232
+    },
+    "I read research papers.": {
+      "src": "audio/55e2d3a91aee49f6.mp3",
+      "seconds": 2.64
+    },
+    "I read the paper yesterday.": {
+      "src": "audio/503feae279bdb275.mp3",
+      "seconds": 2.616
+    },
+    "I saw it yesterday.": {
+      "src": "audio/87037bc005d604ff.mp3",
+      "seconds": 2.208
+    },
+    "I think the meeting will be useful.": {
+      "src": "audio/e437ee531f6155d6.mp3",
+      "seconds": 2.808
+    },
+    "I usually listen to a podcast on my way home.": {
+      "src": "audio/baf9828acf411a24.mp3",
+      "seconds": 3.744
+    },
+    "I visited London in 2019.": {
+      "src": "audio/25b009abfe47c8d7.mp3",
+      "seconds": 3.264
+    },
+    "I was driving home at that time.": {
+      "src": "audio/b7fc620bc1a41aea.mp3",
+      "seconds": 2.952
+    },
+    "I was on duty last Monday.": {
+      "src": "audio/2e38c6ec5023c3a7.mp3",
+      "seconds": 2.76
+    },
+    "I was on duty last night.": {
+      "src": "audio/ec5a8351e6771604.mp3",
+      "seconds": 2.736
+    },
+    "I was reading at eight.": {
+      "src": "audio/05d7f9799857e4f6.mp3",
+      "seconds": 2.304
+    },
+    "I was reading when my colleague called.": {
+      "src": "audio/db35d102c5e6060e.mp3",
+      "seconds": 3.072
+    },
+    "I was reading when she called.": {
+      "src": "audio/d2d274012fb03e18.mp3",
+      "seconds": 2.664
+    },
+    "I was reading when the phone rang.": {
+      "src": "audio/1a87f2c1525d70d1.mp3",
+      "seconds": 2.736
+    },
+    "I will be waiting outside when you finish.": {
+      "src": "audio/2c3f593298ae87e9.mp3",
+      "seconds": 3.288
+    },
+    "I will be working when you arrive.": {
+      "src": "audio/2803b9c63f00c758.mp3",
+      "seconds": 2.856
+    },
+    "I will be working tomorrow at six.": {
+      "src": "audio/2ee9523c5579a2a5.mp3",
+      "seconds": 3.072
+    },
+    "I will call when I arrive.": {
+      "src": "audio/6cc03ab5201e9629.mp3",
+      "seconds": 2.544
+    },
+    "I will call you when I arrive.": {
+      "src": "audio/2703cbabf5e2fe1c.mp3",
+      "seconds": 2.664
+    },
+    "I will explain the difference.": {
+      "src": "audio/b43ecd8c91c383a1.mp3",
+      "seconds": 2.544
+    },
+    "I will have written it by Friday.": {
+      "src": "audio/4ebd6e9ece383e84.mp3",
+      "seconds": 2.88
+    },
+    "I will not forget your advice.": {
+      "src": "audio/efc611bb32bf49ac.mp3",
+      "seconds": 2.784
+    },
+    "If I have time, I will read the paper.": {
+      "src": "audio/9bb7b046f9a247db.mp3",
+      "seconds": 3.192
+    },
+    "If she calls, I will tell her.": {
+      "src": "audio/d237d8e00c656331.mp3",
+      "seconds": 2.952
+    },
+    "It has been raining all morning.": {
+      "src": "audio/432cebaf10716911.mp3",
+      "seconds": 2.736
+    },
+    "My colleague is staying with us this month.": {
+      "src": "audio/08502e3a827c7255.mp3",
+      "seconds": 3.168
+    },
+    "Look at those clouds. It is going to rain.": {
+      "src": "audio/677e5d1f1a503479.mp3",
+      "seconds": 4.656
+    },
+    "My listening has improved.": {
+      "src": "audio/4a98a99411a4cbc4.mp3",
+      "seconds": 2.664
+    },
+    "Our team checks the equipment every morning.": {
+      "src": "audio/8e6cfd889c82c981.mp3",
+      "seconds": 3.288
+    },
+    "She called at eight.": {
+      "src": "audio/bc19a211f15551b6.mp3",
+      "seconds": 2.088
+    },
+    "She does not read.": {
+      "src": "audio/11374147755cd0c1.mp3",
+      "seconds": 2.28
+    },
+    "She does not work at weekends.": {
+      "src": "audio/d6af2e1278e8ba72.mp3",
+      "seconds": 2.88
+    },
+    "She doesn’t read articles.": {
+      "src": "audio/455cbf66906b21c5.mp3",
+      "seconds": 2.616
+    },
+    "She had been teaching for ten years before she moved.": {
+      "src": "audio/2a79cd3533a2de22.mp3",
+      "seconds": 4.056
+    },
+    "She has been head of the department since 2020.": {
+      "src": "audio/aa705cc6e55cce65.mp3",
+      "seconds": 3.696
+    },
+    "She has been waiting for an hour.": {
+      "src": "audio/83446c5baf0e702f.mp3",
+      "seconds": 2.592
+    },
+    "She has written the report.": {
+      "src": "audio/54c7abbc1607064e.mp3",
+      "seconds": 2.544
+    },
+    "She has written the email.": {
+      "src": "audio/b7c2524c9201a627.mp3",
+      "seconds": 2.616
+    },
+    "She is going to take a short course.": {
+      "src": "audio/a51cd98437e53e2b.mp3",
+      "seconds": 2.976
+    },
+    "She is reading a paper at the moment.": {
+      "src": "audio/abec676b1e003c39.mp3",
+      "seconds": 2.976
+    },
+    "She is recovering at home.": {
+      "src": "audio/fe0f6dd56fa83e86.mp3",
+      "seconds": 2.616
+    },
+    "She reads research papers every evening.": {
+      "src": "audio/bc39044d3ca9b870.mp3",
+      "seconds": 3.36
+    },
+    "She was tired because she had been studying all night.": {
+      "src": "audio/ce207b5ace8d3cef.mp3",
+      "seconds": 3.768
+    },
+    "She will be travelling all morning tomorrow.": {
+      "src": "audio/bd31bec2079afbf1.mp3",
+      "seconds": 3.216
+    },
+    "She will call later.": {
+      "src": "audio/5eb07a439e6d057a.mp3",
+      "seconds": 2.256
+    },
+    "So far today, I have read three papers.": {
+      "src": "audio/96053539bc06b907.mp3",
+      "seconds": 3.888
+    },
+    "So far this week, we have seen three new cases.": {
+      "src": "audio/712b74e87c2344ec.mp3",
+      "seconds": 4.224
+    },
+    "That bag looks heavy. I will help you.": {
+      "src": "audio/230363ad0301a37d.mp3",
+      "seconds": 4.008
+    },
+    "The analysis probably will take another hour.": {
+      "src": "audio/033a1384a9701051.mp3",
+      "seconds": 3.408
+    },
+    "The authors have discussed their findings.": {
+      "src": "audio/62aef985177be259.mp3",
+      "seconds": 3.192
+    },
+    "The findings suggest a possible explanation.": {
+      "src": "audio/22fbb32aabc3a234.mp3",
+      "seconds": 3.528
+    },
+    "The meeting starts at nine.": {
+      "src": "audio/bacd3104ed27bb21.mp3",
+      "seconds": 2.688
+    },
+    "The meeting will have finished by five.": {
+      "src": "audio/75ada5e3e2f66585.mp3",
+      "seconds": 3.12
+    },
+    "The paper describes a stroke case.": {
+      "src": "audio/67d1decee55ad00a.mp3",
+      "seconds": 3.096
+    },
+    "The patient was sleeping when I entered.": {
+      "src": "audio/98c0975c33913ae7.mp3",
+      "seconds": 3.024
+    },
+    "The patient arrived an hour ago.": {
+      "src": "audio/7b9f0c15910b3263.mp3",
+      "seconds": 2.76
+    },
+    "The researchers are analysing the data now.": {
+      "src": "audio/57507bbafd32885d.mp3",
+      "seconds": 3.408
+    },
+    "The researchers started the study in 2022.": {
+      "src": "audio/a417d77faaa3aa47.mp3",
+      "seconds": 3.96
+    },
+    "The researchers have been collecting data since January.": {
+      "src": "audio/68e2c6808223e7f1.mp3",
+      "seconds": 3.792
+    },
+    "The road was wet because it had been raining.": {
+      "src": "audio/bd1735185a0b39e3.mp3",
+      "seconds": 3.12
+    },
+    "The symptoms started yesterday.": {
+      "src": "audio/544ac1adcb6603da.mp3",
+      "seconds": 2.808
+    },
+    "The team has recorded each outcome.": {
+      "src": "audio/4c97bd1e95e7d54a.mp3",
+      "seconds": 3.0
+    },
+    "The team has ruled out that explanation.": {
+      "src": "audio/b3a32ee8d8e294a9.mp3",
+      "seconds": 3.168
+    },
+    "The train had left by the time we reached the station.": {
+      "src": "audio/d36d8d23af4de6c1.mp3",
+      "seconds": 3.72
+    },
+    "The team was discussing a case when the meeting ended.": {
+      "src": "audio/e3bcb1b86aeaf954.mp3",
+      "seconds": 3.744
+    },
+    "The train leaves at seven tomorrow.": {
+      "src": "audio/18360ceee3bcba43.mp3",
+      "seconds": 2.976
+    },
+    "They are waiting for the report.": {
+      "src": "audio/da2f150257b02cc7.mp3",
+      "seconds": 2.592
+    },
+    "They had been collecting data for a year before they published the paper.": {
+      "src": "audio/3f078f16978a816b.mp3",
+      "seconds": 4.512
+    },
+    "They had been discussing the case for an hour before I joined.": {
+      "src": "audio/7e31f31feb4764bf.mp3",
+      "seconds": 4.104
+    },
+    "They had examined the patient before I arrived.": {
+      "src": "audio/c82e2b72e26b7772.mp3",
+      "seconds": 3.528
+    },
+    "They have been discussing this case since morning.": {
+      "src": "audio/77858f7f83693fd2.mp3",
+      "seconds": 3.408
+    },
+    "They were analysing the data when the computer stopped.": {
+      "src": "audio/3392812734ad4f57.mp3",
+      "seconds": 3.672
+    },
+    "They were at the meeting yesterday.": {
+      "src": "audio/fcee40949ebd5ae6.mp3",
+      "seconds": 2.808
+    },
+    "They will be discussing the case at noon tomorrow.": {
+      "src": "audio/4356e3eadd184dbc.mp3",
+      "seconds": 3.528
+    },
+    "They will have left by the time we get there.": {
+      "src": "audio/3d76917fd9433b24.mp3",
+      "seconds": 3.096
+    },
+    "This app works offline.": {
+      "src": "audio/c6e1470558eae3ab.mp3",
+      "seconds": 2.568
+    },
+    "We are assessing the situation.": {
+      "src": "audio/3fb8312c1ba045ef.mp3",
+      "seconds": 2.832
+    },
+    "We are comparing the results.": {
+      "src": "audio/bbe1b47fc8a7fc20.mp3",
+      "seconds": 2.712
+    },
+    "We are discussing the results right now.": {
+      "src": "audio/8b4a3cf4fd8e3288.mp3",
+      "seconds": 3.144
+    },
+    "We are meeting the consultant tomorrow at ten.": {
+      "src": "audio/0402b05499dc5e4b.mp3",
+      "seconds": 3.504
+    },
+    "We are meeting the new consultant tomorrow at ten.": {
+      "src": "audio/3ed0117fcbbe7e27.mp3",
+      "seconds": 3.768
+    },
+    "We did not see the final report.": {
+      "src": "audio/cd42f711f68b9302.mp3",
+      "seconds": 2.976
+    },
+    "We discussed the results yesterday.": {
+      "src": "audio/60871329d792c803.mp3",
+      "seconds": 3.0
+    },
+    "We had been waiting for thirty minutes before the lecture began.": {
+      "src": "audio/5d7b789397524e7d.mp3",
+      "seconds": 4.224
+    },
+    "We had finished the report before the meeting began.": {
+      "src": "audio/3cef3468397927a1.mp3",
+      "seconds": 3.624
+    },
+    "We had not received the results when the meeting started.": {
+      "src": "audio/47441105d3f51655.mp3",
+      "seconds": 3.936
+    },
+    "We have been testing a new tool lately.": {
+      "src": "audio/5bc9faeaa6957e5e.mp3",
+      "seconds": 3.096
+    },
+    "We have already finished the analysis.": {
+      "src": "audio/e40f12908b705dc4.mp3",
+      "seconds": 3.096
+    },
+    "We have been testing a new tool.": {
+      "src": "audio/9dada2c4d516c02d.mp3",
+      "seconds": 2.832
+    },
+    "We have not received the report yet.": {
+      "src": "audio/a8ecb7c6b6bb1d95.mp3",
+      "seconds": 2.928
+    },
+    "We have been waiting for an hour, and we are still waiting.": {
+      "src": "audio/fcc23ed27aa977dd.mp3",
+      "seconds": 4.08
+    },
+    "We have reviewed the evidence.": {
+      "src": "audio/c3ddc71d0f9eb2a2.mp3",
+      "seconds": 2.544
+    },
+    "We need a reliable source.": {
+      "src": "audio/3f525e8a86f23804.mp3",
+      "seconds": 2.736
+    },
+    "We need more research.": {
+      "src": "audio/406a38439295eb9b.mp3",
+      "seconds": 2.472
+    },
+    "We need more time to discuss complex cases.": {
+      "src": "audio/5c2f29a5045e19a2.mp3",
+      "seconds": 3.792
+    },
+    "We will be reviewing the results at this time tomorrow.": {
+      "src": "audio/5442469d89e179e8.mp3",
+      "seconds": 3.84
+    },
+    "We were waiting for the bus at six yesterday.": {
+      "src": "audio/6fa4e4ddf127f710.mp3",
+      "seconds": 3.384
+    },
+    "We will follow up next week.": {
+      "src": "audio/75f10708cbbad74d.mp3",
+      "seconds": 2.664
+    },
+    "We will not finish today.": {
+      "src": "audio/00e88a471fa59686.mp3",
+      "seconds": 2.496
+    },
+    "We will have read all the papers by then.": {
+      "src": "audio/2e856eb52d282640.mp3",
+      "seconds": 3.216
+    },
+    "We will not have completed the analysis by tomorrow.": {
+      "src": "audio/d884b242e023b530.mp3",
+      "seconds": 3.792
+    },
+    "What will you be doing at eight?": {
+      "src": "audio/660dd56a55f00ddb.mp3",
+      "seconds": 2.592
+    },
+    "What were you doing at nine yesterday?": {
+      "src": "audio/9c09da652977a8ee.mp3",
+      "seconds": 3.048
+    },
+    "When we checked, the batteries had run out.": {
+      "src": "audio/93830d2837bf47b8.mp3",
+      "seconds": 3.48
+    },
+    "When I finish, I will call you.": {
+      "src": "audio/8a20b692e14d7fa7.mp3",
+      "seconds": 2.952
+    },
+    "While I was reading, she was cooking.": {
+      "src": "audio/91c69d1d7c8c448e.mp3",
+      "seconds": 3.12
+    },
+    "You look busy. I will help you.": {
+      "src": "audio/4e3e3cd784f1c091.mp3",
+      "seconds": 3.672
+    },
+    "Will you open the window, please?": {
+      "src": "audio/5df185da3e899476.mp3",
+      "seconds": 2.952
+    },
+    "Will you have finished by noon?": {
+      "src": "audio/c1af3d6570097282.mp3",
+      "seconds": 2.616
+    },
+    "a stroke": {
+      "src": "audio/9973cc8010f39514.mp3",
+      "seconds": 1.872
+    },
+    "a study": {
+      "src": "audio/88765bd0a21f4436.mp3",
+      "seconds": 1.872
+    },
+    "a tool": {
+      "src": "audio/38af692dd9d8ad23.mp3",
+      "seconds": 1.872
+    },
+    "a ward": {
+      "src": "audio/f7252ed54c2b33d4.mp3",
+      "seconds": 1.752
+    },
+    "an outcome": {
+      "src": "audio/7282e97d01f6f037.mp3",
+      "seconds": 1.872
+    },
+    "already": {
+      "src": "audio/ea53396caebc40d7.mp3",
+      "seconds": 1.872
+    },
+    "artificial intelligence": {
+      "src": "audio/803b3eb2b6af0271.mp3",
+      "seconds": 2.592
+    },
+    "findings": {
+      "src": "audio/8aa3c4ce3ccdfe89.mp3",
+      "seconds": 1.92
+    },
+    "evidence": {
+      "src": "audio/ee8250fb76e094b3.mp3",
+      "seconds": 1.872
+    },
+    "for": {
+      "src": "audio/10c22bcf4c768b51.mp3",
+      "seconds": 1.872
+    },
+    "on duty": {
+      "src": "audio/9d042b55dcbe2c04.mp3",
+      "seconds": 1.872
+    },
+    "reliable": {
+      "src": "audio/20475dfea3a2deb7.mp3",
+      "seconds": 1.872
+    },
+    "research": {
+      "src": "audio/66f62d1807d3821a.mp3",
+      "seconds": 1.872
+    },
+    "since": {
+      "src": "audio/6b5a3ded016ab782.mp3",
+      "seconds": 1.872
+    },
+    "symptoms": {
+      "src": "audio/4f8413e951f36c28.mp3",
+      "seconds": 1.872
+    },
+    "to assess": {
+      "src": "audio/001dd2d6ae1f30eb.mp3",
+      "seconds": 1.92
+    },
+    "to follow up": {
+      "src": "audio/03b5d72781a670d7.mp3",
+      "seconds": 1.872
+    },
+    "to compare": {
+      "src": "audio/af819a749ee0806e.mp3",
+      "seconds": 1.872
+    },
+    "to improve": {
+      "src": "audio/030d1bc68dec338f.mp3",
+      "seconds": 2.016
+    },
+    "to recover": {
+      "src": "audio/525df230b2b4ceb4.mp3",
+      "seconds": 1.872
+    },
+    "to rule out": {
+      "src": "audio/4960ec7e0be795ab.mp3",
+      "seconds": 1.872
+    },
+    "to suggest": {
+      "src": "audio/c0d99120fe84eb83.mp3",
+      "seconds": 1.92
+    },
+    "up to date": {
+      "src": "audio/bef6a4bb30a9d489.mp3",
+      "seconds": 1.872
+    },
+    "yet": {
+      "src": "audio/cfd96dd92f7e0025.mp3",
+      "seconds": 1.872
+    }
+  }
+}

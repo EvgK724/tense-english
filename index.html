@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1a1b1d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Tense">
+  <meta name="description" content="Личный тренажёр английских времён B1–B2: понятные объяснения, практика, Microsoft Ryan и интервальные повторения.">
+  <meta name="color-scheme" content="dark">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Tense — английский в контексте</title>
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a href="#today" class="brand" aria-label="Tense — главная"><img src="icon.svg" alt="" width="40" height="40"><span>Tense<small>АНГЛИЙСКИЙ В КОНТЕКСТЕ</small></span></a>
+      <button class="icon-btn" data-action="settings" aria-label="Настройки и установка" title="Настройки">⚙</button>
+    </header>
+    <main id="app" tabindex="-1">
+      <div class="page-heading"><div><p class="eyebrow">ВАШ РИТМ · B1–B2</p><h1>Практика на сегодня</h1></div></div>
+      <section class="daily-card"><div><span class="pill">01 · Первое занятие</span><h2>Привычка или<br>прямо сейчас?</h2><p>Разберитесь в разнице между <span lang="en">I read</span> и <span lang="en">I am reading</span>.</p><button class="primary" id="first-start">Начать 10 заданий</button></div><div class="daily-orbit"><strong>10</strong><span>заданий<br>на сегодня</span></div></section>
+      <div class="section-heading"><h2>Одна мысль, два смысла</h2><span class="eyebrow">PRESENT</span></div>
+      <div class="contrast-grid"><article class="panel"><span class="label mint">ОБЫЧНО</span><p class="en">I read research papers.</p><p>Я читаю научные статьи.</p><small>Привычка, а не действие в эту минуту.</small></article><article class="panel"><span class="label copper">СЕЙЧАС</span><p class="en">I am reading a paper.</p><p>Я сейчас читаю статью.</p><small>Действие в процессе.</small></article></div>
+      <div class="section-heading"><h2>Соберите основу</h2><span class="muted">По одному шагу</span></div>
+      <div class="lesson-list"><a class="lesson-row" href="#lesson/present-simple"><span class="lesson-number">01</span><div><strong lang="en">Present Simple</strong><small>Факты и привычки</small></div><span class="pill">B1</span></a><a class="lesson-row" href="#lesson/present-continuous"><span class="lesson-number">02</span><div><strong lang="en">Present Continuous</strong><small>В процессе сейчас</small></div><span class="pill">B1</span></a></div>
+    </main>
+    <nav class="bottom-nav" aria-label="Основные разделы"><a href="#today" class="active">◷<span>Сегодня</span></a><a href="#map">▦<span>Времена</span></a><a href="#practice">▷<span>Практика</span></a><a href="#mistakes">↺<span>Ошибки</span></a></nav>
+  </div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <dialog id="settings"><div id="settings-body"></div></dialog>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
