@@ -1,4 +1,4 @@
-const SHELL='tense-shell-v1-20261002a';
+const SHELL='tense-shell-v1-20261002-type2';
 const AUDIO='tense-audio-v1';
 const BASE=new URL('./',self.location).href;
 const CORE=['./','index.html','app.js','engine.js','webmcp.js','content.js','styles.css','manifest.webmanifest','audio-manifest.json','icon.svg','icon-180.png','icon-192.png','icon-512.png'];

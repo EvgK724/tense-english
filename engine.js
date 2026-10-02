@@ -2,7 +2,7 @@ export const DAY = 86400000;
 export const INTERVALS = [1, 3, 7, 14, 30, 60, 120, 180];
 export const STORAGE_KEY = 'tense-progress-v1';
 export const localDay = (now = Date.now()) => { const d = new Date(now); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
-export function freshState(now = Date.now()) { return { schema:1, createdAt:now, cards:{}, mistakes:{}, days:{}, lessons:{}, settings:{ rate:1, font:16, goal:10 }, session:null }; }
+export function freshState(now = Date.now()) { return { schema:1, createdAt:now, cards:{}, mistakes:{}, days:{}, lessons:{}, settings:{ rate:1, font:18, goal:10 }, session:null }; }
 export function normalize(text) {
   return String(text).normalize('NFKC').toLowerCase().replace(/[’‘]/g,"'").replace(/\bwon't\b/g,'will not').replace(/\bcan't\b/g,'cannot').replace(/\bshan't\b/g,'shall not')
     .replace(/\b([a-z]+)n't\b/g,'$1 not').replace(/\bi'm\b/g,'i am').replace(/\b(you|we|they)'re\b/g,'$1 are').replace(/\b(i|you|we|they)'ve\b/g,'$1 have').replace(/\b([a-z]+)'ll\b/g,'$1 will').replace(/\b(he|she|it)'s\b/g,'$1 is').replace(/\banalyz/g,'analys').replace(/\btraveling\b/g,'travelling').replace(/[.,!?;:"()]/g,'').replace(/\s+/g,' ').trim();
@@ -74,7 +74,7 @@ export function validateState(input, ids) {
   for(const [date,value] of Object.entries(input.days||{}))if(/^\d{4}-\d{2}-\d{2}$/.test(date)&&value&&Array.isArray(value.ids)) state.days[date]={answers:Math.max(0,Number(value.answers)||0),correct:Math.max(0,Number(value.correct)||0),ids:[...new Set(value.ids.filter(id=>ids.includes(id)))]};
   const settings=input.settings||{};
   if([.8,1,1.15].includes(Number(settings.rate)))state.settings.rate=Number(settings.rate);
-  if([16,18,20].includes(Number(settings.font)))state.settings.font=Number(settings.font);
+  if([18,20,22].includes(Number(settings.font)))state.settings.font=Number(settings.font);
   if([5,10,15].includes(Number(settings.goal)))state.settings.goal=Number(settings.goal);
   for(const [id,value] of Object.entries(input.lessons||{}))if(ids.some(c=>c.startsWith(id+'-')) && value===true) state.lessons[id]=true;
   const s=input.session;

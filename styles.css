@@ -6,3 +6,14 @@
 @media(max-width:370px){.shell{padding-left:16px;padding-right:16px}.daily-orbit{display:none}.daily-card p{max-width:100%}.contrast-grid{grid-template-columns:1fr}.contrast-grid .en{font-size:1rem}.brand small{font-size:.53rem}.tense-grid{grid-template-columns:1fr}.practice-options{grid-template-columns:1fr}.segmented button{padding:7px 11px}.section-heading{align-items:start}.section-heading .muted{font-size:.75rem}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 .daily-card>div:first-child{min-width:0}.daily-card button{max-width:100%}.segmented{flex-wrap:wrap}.bottom-nav a{min-width:0}.bottom-nav a span{overflow-wrap:anywhere;line-height:1.2}.stats{grid-template-columns:repeat(3,minmax(0,1fr))}.stat{overflow-wrap:anywhere}
+
+/* Comfortable type: 18 px by default; 20 and 22 px in Settings. */
+:root{font-size:18px}
+.en,.example .en,.feedback .en{font-size:1.11rem;line-height:1.5}
+small,.compact-note,.question-note,.example small,.mode-card small,.form-row span:first-child,.tense-tile p,.lesson-row small{font-size:.94rem;line-height:1.5}
+.bottom-nav a span{font-size:.8rem}.label,.eyebrow,.pill,.count-badge{font-size:.78rem}
+.stat small{font-size:.88rem}.form-row{font-size:1rem}.form-row .formula{font-size:1rem}
+.contrast-grid .en{font-size:1.11rem}.contrast-grid p:not(.en){font-size:1rem}.contrast-grid small{font-size:.94rem}
+.exercise .question{font-size:1.4rem}.feedback{scroll-margin-bottom:140px}.lesson-row strong{font-size:1rem}
+@media(max-width:700px){.daily-orbit{display:none}.daily-card h2{font-size:1.7rem}.daily-card p,.daily-card .primary{font-size:1rem}.section-heading{flex-wrap:wrap}.grade-buttons button{font-size:.94rem}.grade-buttons small{font-size:.8rem}.day small{font-size:.78rem}.en,.example .en,.feedback .en{font-size:1.11rem}.exercise .question{font-size:1.33rem}.lesson-row .pill{font-size:.78rem}.page-heading{align-items:start}.form-row{grid-template-columns:minmax(0,1fr);gap:6px}}
+@media(max-width:500px){.contrast-grid{grid-template-columns:1fr}.stat{padding:14px 10px}.stats{gap:8px}.practice-options{grid-template-columns:1fr}.tense-grid{grid-template-columns:1fr}.settings-section .row{gap:14px}.brand small{font-size:.6rem}.lesson-row{padding:16px 13px}}

@@ -62,7 +62,7 @@ const base='http://127.0.0.1:8768/tense-english/';
  await page.locator('[data-action=settings]').click();
  await page.locator('#font').selectOption('20');
  const over20=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);if(over20)throw Error('20px overflow');
- await page.locator('#font').selectOption('16');
+ await page.locator('#font').selectOption('18');
  await page.locator('#rate').selectOption('0.8');
  const downloadPromise=page.waitForEvent('download');await page.locator('[data-action=export]').click();const download=await downloadPromise;await download.saveAs('work/qa-progress.json');
  const copy=JSON.parse(fs.readFileSync('work/qa-progress.json'));if(Object.keys(copy.cards).length!==10)throw Error('Export missing progress');report.flows.push('Font controls, audio speed and JSON export');
