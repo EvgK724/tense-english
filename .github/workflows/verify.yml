@@ -23,11 +23,6 @@ jobs:
         run: |
           npm install --no-save playwright@1.61.1
           npx playwright install --with-deps ${{ matrix.browser }}
-      - name: Serve the app under its production subpath
-        run: |
-          mkdir -p /tmp/tense-site/tense-english
-          cp -r *.html *.js *.css *.json *.svg *.png manifest.webmanifest audio /tmp/tense-site/tense-english/
-          python3 -m http.server 8768 --bind 127.0.0.1 --directory /tmp/tense-site > /tmp/tense-server.log 2>&1 &
       - name: Test phone and tablet flows
         env:
           QA_BROWSER: ${{ matrix.browser }}

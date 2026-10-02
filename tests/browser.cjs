@@ -1,7 +1,13 @@
 const {chromium,webkit}=require('playwright');
 const fs=require('fs');
+const http=require('node:http'),path=require('node:path');
+const mime={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.webmanifest':'application/manifest+json','.mp3':'audio/mpeg','.svg':'image/svg+xml','.png':'image/png'};
+const server=http.createServer((req,res)=>{const url=new URL(req.url,'http://localhost');if(!url.pathname.startsWith('/tense-english/')){res.writeHead(404);res.end();return;}const relative=url.pathname.slice('/tense-english/'.length)||'index.html';const file=path.resolve(relative);if(!file.startsWith(process.cwd()+path.sep)){res.writeHead(403);res.end();return;}fs.readFile(file,(err,body)=>{res.writeHead(err?404:200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream','Cache-Control':'no-store'});res.end(err?'not found':body);});});
+async function startOrigin(){await new Promise(r=>server.listen(8768,'127.0.0.1',r));}
+async function stopOrigin(){const done=new Promise(r=>server.close(r));server.closeAllConnections();await done;}
 const base='http://127.0.0.1:8768/tense-english/';
 (async()=>{
+ await startOrigin();
  const browser=await (process.env.QA_BROWSER==='webkit'?webkit:chromium).launch({headless:true});fs.mkdirSync('outputs',{recursive:true});fs.mkdirSync('work',{recursive:true});
  const report={viewports:[],errors:[],flows:[]};
  const context=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:2,isMobile:true,hasTouch:true,acceptDownloads:true});
@@ -63,16 +69,16 @@ const base='http://127.0.0.1:8768/tense-english/';
  await page.locator('#import-file').setInputFiles('work/qa-progress.json');await page.locator('#confirm-import').click();await page.waitForURL('**#today');report.flows.push('Import confirms and restores progress');
  await page.locator('[data-action=settings]').click();await page.locator('[data-action=offline]').click();await page.waitForFunction(()=>document.querySelector('#offline-status')?.textContent.startsWith('Готово'),null,{timeout:60000});
  const audioCount=await page.evaluate(async()=> (await(await caches.open('tense-audio-v1')).keys()).length);if(audioCount!==214)throw Error('Incomplete offline audio '+audioCount);
- await page.locator('[data-action=close]').click();await context.setOffline(true);await page.reload();await page.waitForSelector('[data-action=start]');
+ await page.locator('[data-action=close]').click();if(process.env.QA_BROWSER==='webkit'){await stopOrigin();let unreachable=false;try{await fetch(base+'uncached-outage-probe');}catch{unreachable=true;}if(!unreachable)throw Error('Origin must be unreachable');report.outageMethod='Origin stopped; avoids Playwright WebKit offline-emulation issue 42775';}else{await context.setOffline(true);report.outageMethod='Browser network offline';}await page.reload();await page.waitForSelector('[data-action=start]');
  await page.goto(base+'#lesson/present-perfect');await page.waitForSelector('.example');
  const audioCheck=await page.evaluate(async()=>{const m=await(await fetch('./audio-manifest.json')).json();const f=Object.values(m.files)[0];const response=await fetch(f.src,{headers:{Range:'bytes=0-1023'}});return {status:response.status,size:(await response.arrayBuffer()).byteLength};});
  if(audioCheck.status!==206||audioCheck.size!==1024)throw Error('Offline audio range '+JSON.stringify(audioCheck));
  await page.locator('.example .audio-btn').first().click();await page.waitForTimeout(500);if(!(await page.locator('.audio-btn.playing').count()))throw Error('Offline audio did not start');
  report.flows.push('Full offline reload, lesson content, audio playback and 206 byte-range serving');
- await context.setOffline(false);
+ if(process.env.QA_BROWSER==='webkit')await startOrigin();else await context.setOffline(false);
  await page.goto(base+'#practice');await page.locator('[data-action=start][data-mode=listen]').click();await page.waitForURL('**#session');await page.waitForSelector('#exercise-controls');await page.locator('[data-action=audio]').click();await page.waitForTimeout(200);
  const answer=await page.evaluate(async()=>{const {CONTENT:C}=await import('./content.js');const s=JSON.parse(localStorage.getItem('tense-progress-v1')).session;const c=C.cards.find(c=>c.id===s.queue[s.index]);return C.lessons.find(l=>l.id===c.lesson).name;});
  await clickChoice(answer);await page.waitForSelector('.feedback:not(.bad)');report.flows.push('Listening question, Ryan playback and tense feedback');
  await page.screenshot({path:'outputs/Tense-practice.png',fullPage:true});
- if(report.errors.length)throw Error(JSON.stringify(report.errors)); fs.writeFileSync('outputs/browser-qa-'+process.env.QA_BROWSER+'.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));await browser.close();
-})().catch(e=>{console.error(e);process.exit(1)});
+ if(report.errors.length)throw Error(JSON.stringify(report.errors)); fs.writeFileSync('outputs/browser-qa-'+process.env.QA_BROWSER+'.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));await browser.close();await stopOrigin();
+})().catch(e=>{console.error(e);fs.mkdirSync('outputs',{recursive:true});fs.writeFileSync('outputs/failure.txt',String(e));process.exit(1)});
